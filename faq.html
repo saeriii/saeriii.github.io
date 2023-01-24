@@ -1,120 +1,165 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Logitech G</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/logo-256.png" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Logitech</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="portfolio-item.html">G502 Lightspeed</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Membership</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Page Content-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
-                    <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Beliebte FAQs</h1>
-                        <p class="lead fw-normal text-muted mb-0">Wie können wir dir helfen?</p>
-                    </div>
-                    <div class="row gx-5">
-                        <div class="col-xl">
-                            <!-- FAQ Accordion 1-->
-                            <h2 class="fw-bolder mb-3">Logitech G HUB – FAQs</h2>
-                            <div class="accordion mb-5" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Was ist G HUB?</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Logitech G HUB ist die neue Software, die es ermöglicht, die Möglichkeiten Ihrer Ausrüstung optimal zu nutzen. In der übersichtlichen und modernen Benutzeroberfläche können Sie schnell Ihre Ausrüstung für jedes Spiel personalisieren, LIGHTSYNC RGB Profile anpassen, Profile von anderen teilen und herunterladen und vieles mehr.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Kann ich G HUB offline verwenden?</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            G HUB benötigt für die Installation, Software-Updates und Community-Funktionen einen Internetzugang. Nach der Installation benötigen Sie keine Internetverbindung, um Funktionen wie den Makro- und den LIGHTSYNC-Editor zu nutzen.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Welche Produkte werden von G HUB unterstützt?</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Eine Liste der derzeit unterstützten Produkte finden Sie am Ende dieser <a href="https://www.logitechg.com/en-us/innovation/g-hub.html">Seite</a>. Dies ist eine noch in der Entwicklung befindliche Early-Access-Software. Weitere Produkte werden im Laufe der Zeit hinzugefügt.
-                                        </div>
-                                    </div>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Logitech G</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/logo-256.png"/>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body class="d-flex flex-column h-100">
+<main class="flex-shrink-0">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html">Logitech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio-item.html">G502 Lightspeed</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Membership</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h1 class="fw-bolder">Beliebte FAQs</h1>
+                <p class="lead fw-normal text-muted mb-0">Wie können wir dir helfen?</p>
+            </div>
+            <div class="row gx-5">
+                <div class="col-xl">
+                    <!-- FAQ Accordion 1-->
+                    <h2 class="fw-bolder mb-3">Logitech G HUB – FAQs</h2>
+                    <div class="accordion mb-5" id="accordionExample">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Was ist G HUB?
+                                </button>
+                            </h3>
+                            <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne"
+                                 data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Logitech G HUB ist die neue Software, die es ermöglicht, die Möglichkeiten Ihrer
+                                    Ausrüstung optimal zu nutzen. In der übersichtlichen und modernen Benutzeroberfläche
+                                    können Sie schnell Ihre Ausrüstung für jedes Spiel personalisieren, LIGHTSYNC RGB
+                                    Profile anpassen, Profile von anderen teilen und herunterladen und vieles mehr.
                                 </div>
                             </div>
-                            <!-- FAQ Accordion 2-->
-                            <h2 class="fw-bolder mb-3">G-Tasten in Logitech G HUB</h2>
-                            <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingFour"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Was sind G-Tasten?</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            Die G-Tasten sind Tasten für bestimmte Befehle oder Funktionen auf Logitech Geräten. Diese Befehle können alles von einem einfachen Tastendruck bis hin zu komplexen Abläufen mit mehreren Aktionen im Spiel umfassen.
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Kann ich G HUB offline verwenden?
+                                </button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo"
+                                 data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    G HUB benötigt für die Installation, Software-Updates und Community-Funktionen einen
+                                    Internetzugang. Nach der Installation benötigen Sie keine Internetverbindung, um
+                                    Funktionen wie den Makro- und den LIGHTSYNC-Editor zu nutzen.
                                 </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingFive"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Zuweisen von Befehlen zu meinen G-Tasten
-                                    </button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseFive" aria-labelledby="headingFive" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <p>1. Rufe Logitech G HUB auf.</p>
-                                            <p>2. Klicke auf das Logitech Gerät.</p>
-                                            <p>3. Klicke auf das Symbol Zuweisungen.</p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">Welche Produkte werden von G HUB unterstützt?
+                                </button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree"
+                                 data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Eine Liste der derzeit unterstützten Produkte finden Sie am Ende dieser <a
+                                        href="https://www.logitechg.com/en-us/innovation/g-hub.html">Seite</a>. Dies ist
+                                    eine noch in der Entwicklung befindliche Early-Access-Software. Weitere Produkte
+                                    werden im Laufe der Zeit hinzugefügt.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Accordion 2-->
+                    <h2 class="fw-bolder mb-3">G-Tasten in Logitech G HUB</h2>
+                    <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingFour">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">Was sind G-Tasten?
+                                </button>
+                            </h3>
+                            <div class="accordion-collapse collapse show" id="collapseFour"
+                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    Die G-Tasten sind Tasten für bestimmte Befehle oder Funktionen auf Logitech Geräten.
+                                    Diese Befehle können alles von einem einfachen Tastendruck bis hin zu komplexen
+                                    Abläufen mit mehreren Aktionen im Spiel umfassen.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">Zuweisen von Befehlen zu meinen G-Tasten
+                                </button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="collapseFive" aria-labelledby="headingFive"
+                                 data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>1. Rufe Logitech G HUB auf.</p>
+                                    <p>2. Klicke auf das Logitech Gerät.</p>
+                                    <p>3. Klicke auf das Symbol Zuweisungen.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; M152 - Saranya Wenger - 2023</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="https://www.instagram.com/logitech/?ref=badge" target="_blank"><i class="bi bi-instagram"></i></a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="https://twitter.com/Logitech"><i class="bi bi-twitter"></i></a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="contact.html"><i class="bi bi-info-circle"></i></a>
-                    </div>
-                </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </section>
+</main>
+<!-- Footer-->
+<footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="col-auto">
+                <div class="small m-0 text-white">Copyright &copy; M152 - Saranya Wenger - 2023</div>
+            </div>
+            <div class="col-auto">
+                <a class="link-light small" href="https://www.instagram.com/logitech/?ref=badge" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+                <span class="text-white mx-1">&middot;</span>
+                <a class="link-light small" href="https://twitter.com/Logitech"><i class="bi bi-twitter"></i></a>
+                <span class="text-white mx-1">&middot;</span>
+                <a class="link-light small" href="contact.html"><i class="bi bi-info-circle"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
 </html>
